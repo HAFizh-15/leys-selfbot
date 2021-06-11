@@ -114,7 +114,7 @@ client.connect();
 			const apiKey = setting.apiKey // get it at leyscoders-api.herokuapp.com
 			const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio, product } = MessageType
 			const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
-			let d = new Date
+			let d = new Datea
 			let locale = 'id'
 			let gmt = new Date(0).getTime() - new Date('1 January 1970').getTime()
 			let weton = ['Pahing', 'Pon','Wage','Kliwon','Legi'][Math.floor(((d * 1) + gmt) / 84600000) % 5]
